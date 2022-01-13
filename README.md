@@ -24,11 +24,11 @@ The header file `vec.h` provides two macros: `VEC_GEN(type, suffix)` and `VEC_GE
 Example:
 
 - `vec.c`:
-        #include "vec.h"
+        \#include "vec.h"
         VEC_GEN_IMPL(int, myint)
 
 - `main.c`:
-        #include "vec.h"
+        \#include "vec.h"
         VEC_GEN(int, myint)
 
         int main(void) {
